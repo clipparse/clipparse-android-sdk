@@ -5,6 +5,12 @@ All notable changes to the ClipParse Android SDK will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-11-13
+
+### Added
+
+- `Ingredient.quantityMin` and `Ingredient.quantityMax`, the two ends of an amount given as a range ("3-4 tbsp" is 3 and 4), in the ingredient's `unit`. Both are set for a range and both are `null` for a single amount. `Ingredient.quantity` is unchanged: for a range it is the midpoint (3.5).
+
 ## [1.0.0] - 2026-11-12
 
 ### Added
@@ -15,4 +21,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `ClipParseException`, thrown on failure, with a `code` to tell errors apart, an `isRetryable` flag for transient failures, and `retryAfter` for when to try again.
 - [DATA_SAFETY.md](DATA_SAFETY.md), which lists what the SDK sends and to whom, to help fill in Google Play's Data safety form.
 
+[1.1.0]: https://github.com/clipparse/clipparse-android-sdk/releases/tag/1.1.0
 [1.0.0]: https://github.com/clipparse/clipparse-android-sdk/releases/tag/1.0.0
