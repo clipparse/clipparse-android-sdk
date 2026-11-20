@@ -1,6 +1,6 @@
 # ClipParse Android SDK
 
-The official ClipParse SDK for Android — extract structured recipes (ingredients, steps, timings) from TikTok and Instagram video links. Distributed as an Android library (AAR) on Maven Central.
+The official ClipParse SDK for Android — extract structured recipes (ingredients, steps, timings) from TikTok and Instagram post links. Distributed as an Android library (AAR) on Maven Central.
 
 ## Requirements
 
