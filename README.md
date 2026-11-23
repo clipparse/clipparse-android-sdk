@@ -13,7 +13,7 @@ Maven Central is already listed in the `repositories` block of most Android proj
 
 ```kotlin
 dependencies {
-    implementation("com.clipparse:clipparse-android-sdk:1.1.0")
+    implementation("com.clipparse:clipparse-android-sdk:1.2.0")
 }
 ```
 

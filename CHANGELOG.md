@@ -5,6 +5,21 @@ All notable changes to the ClipParse Android SDK will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-11-23
+
+### Added
+
+- `ClipParseClient.extract(url)`, which extracts a recipe from a post URL.
+
+### Changed
+
+- More reliable TikTok extraction.
+- [DATA_SAFETY.md](DATA_SAFETY.md) now covers TikTok links.
+
+### Deprecated
+
+- `ClipParseClient.extract(url, caption)`. Its `caption` parameter has no effect: call `extract(url)` instead. The function will be removed in a future major version.
+
 ## [1.1.0] - 2026-11-13
 
 ### Added
@@ -21,5 +36,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `ClipParseException`, thrown on failure, with a `code` to tell errors apart, an `isRetryable` flag for transient failures, and `retryAfter` for when to try again.
 - [DATA_SAFETY.md](DATA_SAFETY.md), which lists what the SDK sends and to whom, to help fill in Google Play's Data safety form.
 
+[1.2.0]: https://github.com/clipparse/clipparse-android-sdk/releases/tag/1.2.0
 [1.1.0]: https://github.com/clipparse/clipparse-android-sdk/releases/tag/1.1.0
 [1.0.0]: https://github.com/clipparse/clipparse-android-sdk/releases/tag/1.0.0
