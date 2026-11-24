@@ -21,6 +21,8 @@ The SDK uses one permission, `INTERNET`, which it declares in its own manifest.
 
 ## Usage
 
+You need a ClipParse API key: get a free one at [clipparse.com/get-free-key](https://clipparse.com/get-free-key). It takes seconds and doesn't require a credit card.
+
 Create a client with your API key, then extract a recipe from a TikTok or Instagram link. `extract` is a suspending function: call it from a coroutine. It is safe to call from the main thread.
 
 ```kotlin
