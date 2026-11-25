@@ -1,6 +1,10 @@
 # ClipParse Android SDK
 
-The official ClipParse SDK for Android — extract structured recipes (ingredients, steps, timings) from TikTok and Instagram post links. Distributed as an Android library (AAR) on Maven Central.
+The official ClipParse SDK for Android: add recipe import from TikTok and Instagram links to your Kotlin app. Pass a post's link and get back the recipe as structured data: the title, ingredients with quantities and units, ordered steps, timings and servings. Distributed as an Android library (AAR) on Maven Central.
+
+- [Guide: import recipes from TikTok and Instagram links in an Android app](https://docs.clipparse.com/guides/import-recipes-from-tiktok-instagram-android), with a ViewModel and the share sheet
+- [API reference](https://docs.clipparse.com/): every recipe field and outcome
+- [Get a free API key](https://clipparse.com/get-free-key)
 
 ## Requirements
 
@@ -82,6 +86,7 @@ try {
 ```
 
 Always keep the `else` branch: new error codes can be added over time, and the SDK passes on a code it doesn't know yet as is.
+
 ## Privacy
 
 [DATA_SAFETY.md](DATA_SAFETY.md) lists what the SDK sends and to whom, to help you fill in Google Play's Data safety form.
