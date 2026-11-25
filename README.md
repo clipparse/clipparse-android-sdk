@@ -3,6 +3,7 @@
 The official ClipParse SDK for Android: add recipe import from TikTok and Instagram links to your Kotlin app. Pass a post's link and get back the recipe as structured data: the title, ingredients with quantities and units, ordered steps, timings and servings. Distributed as an Android library (AAR) on Maven Central.
 
 - [Guide: import recipes from TikTok and Instagram links in an Android app](https://docs.clipparse.com/guides/import-recipes-from-tiktok-instagram-android), with a ViewModel and the share sheet
+- [Example app](https://github.com/clipparse/tiktok-instagram-recipe-import-compose): an open-source Jetpack Compose app that receives links from the share sheet
 - [API reference](https://docs.clipparse.com/): every recipe field and outcome
 - [Get a free API key](https://clipparse.com/get-free-key)
 
